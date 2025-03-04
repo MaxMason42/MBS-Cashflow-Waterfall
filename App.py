@@ -300,3 +300,6 @@ def main():
             st.header('Waterfall Details')
             # Show first 20 periods of waterfall details
             st.dataframe(bonds.bond_df.head(20))
+
+if __name__ == '__main__':
+    main()
