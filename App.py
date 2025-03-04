@@ -215,7 +215,7 @@ def main():
     st.subheader('Portfolio Summary')
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.metric("Total Portfolio Balance", f"${total_balance:,.2f}")
+        st.metric("Total Portfolio Balance", f"${total_balance:,.0f}")
     with col2:
         st.metric("Average Coupon Rate", f"{avg_coupon:.2f}%")
     with col3:
